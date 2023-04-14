@@ -1,0 +1,38 @@
+:root {
+  --color: aqua;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+}
+main h1 {
+  color: darkblue;
+  font-size: 5rem;
+  margin-bottom: 5rem;
+}
+.content {
+  display: flex;
+  align-items: center;
+  font-size: 3rem;
+  gap: 2rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+button {
+  all: unset;
+  padding: 0.25rem 1rem 0.5rem 1rem;
+  font-size: 3rem;
+  border-radius: 0.5rem;
+  background-color: var(--color);
+  color: black;
+}
